@@ -1,0 +1,13 @@
+body {
+  position: relative;
+  height: 600px;
+  overflow-x: hidden;
+  width: 100vw;
+  background: linear-gradient(
+    90deg,
+    rgba(4, 4, 4, 1) 0%,
+    rgba(51, 23, 17, 1) 44%,
+    rgba(57, 18, 18, 1) 68%,
+    rgba(50, 50, 50, 1) 100%
+  );
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Memory | Goran |</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#9db616" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="styles/styles.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h2>Memory game |Goran|</h2>
+    </header>
+    <div class="rowResult">
+      <table>
+        <tr>
+          <td>Current result: <p1 id="currentScore">100</p1> pts</td>
+          <td>
+            SCORE:
+            <p1 id="playersScore">0</p1>
+            pts
+          </td>
+        </tr>
+      </table>
+    </div>
+    <button id="reload">RELOAD</button>
+    <div class="alert">
+      <p id="finalMessage">No...<p1 id="finalResult"> 0 </p1>pts</p>
+      <button id="nextTry">Next try</button>
+    </div>
+    <div class="preferences">
+      <h2>Style of game:</h2>
+      <table id="tblprfs">
+        <tr>
+          <td>
+            <img src="styles/images/chevron-double-left.svg" id="chevronLeft" />
+          </td>
+          <td><b id="style">Numbers</b></td>
+          <td>
+            <img
+              src="styles/images/chevron-double-right.svg"
+              id="chevronRight"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button id="play">Play</button></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="mainRow">
+      <table id="playTable">
+        <tr>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos1" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos2" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos3" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos4" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos5" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos6" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos7" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos8" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos9" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos10" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos11" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos12" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos13" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos14" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos15" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos16" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos17" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos18" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos19" />
+          </td>
+          <td>
+            <p id="questionmark">?</p>
+            <img src="" id="pos20" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="babelScript/script.js"></script>
+  </body>
+</html>

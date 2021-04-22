@@ -1,0 +1,52 @@
+.rowResult {
+  position: relative;
+  width: 100vw;
+  font-weight: bold;
+  color: white;
+  table {
+    position: relative;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  #currentScore,
+  #playersScore {
+    color: red;
+  }
+}
+#reload {
+  position: relative;
+  margin-top: 10px;
+  height: 40px;
+  width: 10vw;
+  margin-left: 45%;
+  background: linear-gradient(
+    166deg,
+    #3c9053 0%,
+    #54a869 35%,
+    #29e36a 60%,
+    #31a83f 97%
+  );
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+@media screen and (max-width: 564px) {
+  .rowResult {
+    table {
+      width: 85vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  #reload {
+    width: 20vw;
+    margin-left: 40%;
+  }
+}

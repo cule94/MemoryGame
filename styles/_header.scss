@@ -1,0 +1,17 @@
+header {
+  position: relative;
+  margin-top: 20px;
+  width: 70vw;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+
+@media screen and (max-width: 564px) {
+  header {
+    width: 80vw;
+  }
+}

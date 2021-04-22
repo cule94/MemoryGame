@@ -1,0 +1,57 @@
+.preferences {
+  margin-top: 20px;
+  position: absolute;
+  padding-top: 50px;
+  width: 80vw;
+  left: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  border: 2px solid;
+  z-index: 2;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+  background: linear-gradient(
+    90deg,
+    rgba(113, 199, 185, 1) 0%,
+    rgba(60, 184, 159, 1) 35%,
+    rgba(45, 255, 232, 1) 65%,
+    rgba(20, 115, 93, 1) 100%
+  );
+  color: white;
+  visibility: visible;
+  table {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 40%;
+    color: black;
+    img {
+      position: relative;
+      zoom: 2;
+      cursor: pointer;
+    }
+    td {
+      position: relative;
+      #play {
+        position: relative;
+        width: 60%;
+        height: 40px;
+        background-color: black;
+        border-radius: 10px 10px 10px 10px;
+        color: white;
+        cursor: pointer;
+        border: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .preferences {
+    height: 400px;
+    left: 7%;
+    width: 86vw;
+  }
+}
